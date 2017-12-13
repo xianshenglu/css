@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>border-radius-seaWave</title>
+		<style>
+			body,div {
+				margin: 0;
+				padding: 0;
+			}
+			.content {				
+				width: 600px;
+				height: 150px;
+				background-color: #0AF4E8;
+				position: fixed;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%);
+				overflow: hidden;
+			}
+			.mask {				
+				width: 2000px;
+				height: 2000px;
+				border-radius: 45%;
+				background-color: #fff;
+				margin-top: -1900px;			
+				margin-left: -700px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="mask"></div>
+			
+		</div>
+		<script>
+			window.onload=function () {
+				var mask=document.getElementsByClassName('mask')[0],
+				degree=100,
+				speed=Math.round(1,10),
+				timer;
+				timer=setInterval(roll,50);
+				roll();
+				function roll(){				
+					degree=degree+speed;	
+					mask.style.transform="rotate("+degree+"deg)";									
+				}
+					
+			};
+		</script>
+	</body>
+</html>
