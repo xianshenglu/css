@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>test2</title>
+	<style>
+	/* 基本样式 */
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		body {
+			padding: 20px;
+		}
+		.navMenu {
+			background-color: #74adaa;
+			width: 950px;			
+			height: 50px;			
+			margin: 0 auto;							
+		}
+		.navMenu>li {
+			display: inline-block;	
+			list-style-type: none;		
+			margin-right: -7px;								
+		}		
+		.navMenu li a {
+			width: 100%;
+			height: 100%;
+			display: block;
+			line-height: 50px;			
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+			text-align: center;						
+		}
+		.three-d-box {									
+			position: relative;						
+		}
+		.three-d-box .cont {
+			display: block;
+			color: #74adaa;
+			padding: 0 30px;
+			height: 50px;
+		}							
+		.three-d-box .front,
+		.three-d-box .back {			
+			display: block;
+			width: 100%;
+			height: 100%;			
+			position: absolute;			
+			left: 0;
+			top: 0;			
+			border-right: 1px solid #94c0be;
+			background-color: #74adaa;
+		}
+		/* 3d旋转准备样式 */
+		.three-d-box .front {
+			height: 49px;
+		}
+		.three-d-box .front {
+			-webkit-transform: rotateX(0deg) translateZ(25px);
+			border-bottom: 1px solid #94c0be;			
+		}
+		.three-d-box .back {
+			-webkit-transform: rotateX(-90deg) translateZ(25px) ;
+			/* 面对浏览器，translateX(5px)往右5px，translateY(5px)往下5px，translateZ(5px)正对用户5px */
+
+		}
+		/* 准备翻转three-d-box
+			鼠标滑过时 */
+		.three-d-box:hover,
+		.three-d-box:focus {
+			-webkit-transform: rotateX(90deg);
+		}
+		.three-d-box:hover .front,
+		.three-d-box:hover .back,
+		.active .front,
+		.active .back {
+			background-color: #51938f;
+			background-image: -webkit-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+			-webkit-background-size: 5px 5px;
+		}
+			/* 鼠标移出时 */		
+		.three-d-box {		
+			/* 是否保留3d效果，不设置，则不保留 */	
+			-webkit-transform-style: preserve-3d;
+			-webkit-transition: all 1s ease;
+		}
+		.dropMenu {
+			position: absolute;		
+			top: 70px;	
+			background-color: #74adaa;	
+		}		
+		.dropMenu li a {
+			width: 100%;
+		}	
+		.dropMenu li {			
+			list-style-type: none;
+			height: 0;		
+			-webkit-transform: rotateX(90deg);	
+			-webkit-transition: all 4s ease;
+		}	
+		.navMenu>li:hover .dropMenu li {
+			-webkit-transform: rotateX(0deg);
+			height: 50px;
+		}			
+	</style>
+</head>
+<body>	
+	<ul class="navMenu">
+		<li>			
+			<a href="#" class="three-d-box active">	
+				<span href="#" class="cont">Home</span>			
+				<span href="#" class="front">Home</span>				
+				<span href="#" class="back">Home</span>
+			</a>
+		</li>		
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">Service</span>	
+				<span href="#" class="front">Service</span>				
+				<span href="#" class="back">Service</span>
+			</a>
+		</li>
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">Products</span>	
+				<span href="#" class="front">Products</span>				
+				<span href="#" class="back">Products</span>
+			</a>
+		</li>
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">About</span>	
+				<span href="#" class="front">About</span>				
+				<span href="#" class="back">About</span>
+			</a>
+		</li>
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">Contact</span>	
+				<span href="#" class="front">Contact</span>				
+				<span href="#" class="back">Contact</span>
+			</a>
+		</li>			
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">Blog</span>	
+				<span href="#" class="front">Blog</span>				
+				<span href="#" class="back">Blog</span>
+			</a>			
+			<ul class="dropMenu">
+				<li>
+					<a href="#" class="three-d-box">
+						<span href="#" class="cont">Html5</span>	
+						<span href="#" class="front">Html5</span>				
+						<span href="#" class="back">Html5</span>
+					</a>					
+				</li>				
+				<li>
+					<a href="#" class="three-d-box">
+						<span href="#" class="cont">Css3</span>	
+						<span href="#" class="front">Css3</span>				
+						<span href="#" class="back">Css3</span>
+					</a>					
+				</li>
+				<li>
+					<a href="#" class="three-d-box">
+						<span href="#" class="cont">Javascript</span>	
+						<span href="#" class="front">Javascript</span>				
+						<span href="#" class="back">Javascript</span>
+					</a>					
+				</li>	
+				<li>
+					<a href="#" class="three-d-box">
+						<span href="#" class="cont">Videogames</span>	
+						<span href="#" class="front">Videogamess</span>				
+						<span href="#" class="back">Videogamess</span>
+					</a>					
+				</li>			
+			</ul>				
+		</li>
+		<li> 
+			<a href="#" class="three-d-box">
+				<span href="#" class="cont">Shop On-Line</span>	
+				<span href="#" class="front">Shop On-Line</span>				
+				<span href="#" class="back">Shop On-Line</span>
+			</a>
+		</li>				
+	</ul>	
+</body>
+</html>
