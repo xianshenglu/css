@@ -2,10 +2,6 @@ demos about css (including css3)
 
 quick show:
 
-stacked-boxes:
-
-![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/stacked-boxes.png)
-
 3D-rotary-navigation
 
 ![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/3D-rotary-navigation.gif)
@@ -17,3 +13,7 @@ waves
 background-animation
 
 ![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/background-animation.gif)
+
+stacked-boxes
+
+![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/stacked-boxes.png)
