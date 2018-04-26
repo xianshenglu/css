@@ -1,4 +1,4 @@
-#demos about css
+# demos about css
 
 quick show:
 
@@ -24,7 +24,7 @@ quick show:
 
 * [stacked-boxes](https://xianshenglu.github.io/css/stacked-boxes/index.html)
 
-![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/waves.png)
+![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/stacked-boxes.png)
 
 * [grid](https://xianshenglu.github.io/css/grid/index.html)
 
