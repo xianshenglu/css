@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>border-radius-seaWave</title>
+	<style>
+		html {
+			font-size: 20px;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 0.8rem;
+		}
+
+		header {
+			box-sizing: border-box;
+			margin: 0 auto;
+			margin-top: 0.5rem;
+			padding: 2rem;
+			width: 15rem;
+			height: 15rem;
+			border: 0.5rem solid transparent;
+			border-radius: 0.5rem;
+			background-image: repeating-linear-gradient(white, white),
+			repeating-linear-gradient( -45deg,
+			brown 0,
+			brown 12.5%,
+			white 0,
+			white 25%,
+			lightblue 0,
+			lightblue 37.5%,
+			white 0,
+			white 50%,
+			brown 0%,
+			brown 62.5%,
+			white 0,
+			white 75%,
+			lightblue 0,
+			lightblue 87.5%,
+			white 0,
+			white 100%);
+			background-position: 0, 0;
+			background-clip: padding-box, border-box;
+			background-origin: padding-box, border-box;
+			background-size: 5rem;
+			animation: ants 5s linear infinite;
+		}
+
+		@keyframes ants {
+			to {
+				background-position: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		Bacon ipsum dolor amet eu adipisicing elit tongue ground round ex fatback proident kielbasa ham hock. Sausage beef beef ribs
+		aliquip t-bone mollit.
+	</header>
+</body>
+
+</html>
