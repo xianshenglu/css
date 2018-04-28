@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .pie {
+      width: 10rem;
+      margin: 0 auto;
+      height: 10rem;
+      border-radius: 50%;
+      background-color: yellowgreen;
+      background-image: linear-gradient(to right, transparent 50%, brown 0);
+    }
+
+    .pie::before {
+      display: block;
+      margin-left: 50%;
+      width: 50%;
+      height: 100%;
+      border-radius: 0 100% 100% 0/0 50% 50% 0;
+      background-color: inherit;
+      content: '';
+      transform: rotateZ(0turn);
+      transform-origin: left;
+      animation: target infinite 3s linear, update infinite 6s step-end;
+    }
+
+    @keyframes update {
+      50% {
+        background-color: brown;
+      }
+    }
+
+    @keyframes target {
+      to {
+        transform: rotateZ(0.5turn);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="pie"></div>
+  </header>
+</body>
+
+</html>

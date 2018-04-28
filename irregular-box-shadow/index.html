@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .pie {
+      position: relative;
+      margin: 0 auto;
+      width: 10rem;
+      height: 10rem;
+      background: pink;
+      color: deeppink;
+      font-size: 2rem;
+      filter: drop-shadow(0.1rem 0.1rem 0.5rem gray);
+    }
+
+    .pie::before {
+      position: absolute;
+      top: calc(50% - 2rem);
+      right: -4rem;
+      display: block;
+      width: 0;
+      height: 0;
+      border: 2rem solid transparent;
+      border-left-color: pink;
+      content: '';
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="pie"></div>
+  </header>
+</body>
+
+</html>

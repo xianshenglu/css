@@ -20,11 +20,15 @@ quick show:
 
 ![border-ants](https://xianshenglu.github.io/css/img-displayed/border-ants.gif)
 
+* [circular-progress-bar](https://xianshenglu.github.io/css/circular-progress-bar/index.html)
+
+![circular-progress-bar](https://xianshenglu.github.io/css/img-displayed/circular-progress-bar.gif)
+
 ## non-animation
 
-* [stacked-boxes](https://xianshenglu.github.io/css/stacked-boxes/index.html)
+* [box-shadow-one-side](https://xianshenglu.github.io/css/box-shadow-one-side/index.html)
 
-![stacked-boxes](https://xianshenglu.github.io/css/img-displayed/stacked-boxes.png)
+![box-shadow-one-side](https://xianshenglu.github.io/css/img-displayed/box-shadow-one-side.png)
 
 * [grid](https://xianshenglu.github.io/css/grid/index.html)
 
@@ -33,3 +37,11 @@ quick show:
 * [checkboard](https://xianshenglu.github.io/css/checkboard/index.html)
 
 ![checkboard](https://xianshenglu.github.io/css/img-displayed/checkboard.png)
+
+* [trapezoid-tabs](https://xianshenglu.github.io/css/trapezoid-tabs/index.html)
+
+![trapezoid-tabs](https://xianshenglu.github.io/css/img-displayed/trapezoid-tabs.png)
+
+* [irregular-box-shadow](https://xianshenglu.github.io/css/irregular-box-shadow/index.html)
+
+![irregular-box-shadow](https://xianshenglu.github.io/css/img-displayed/irregular-box-shadow.png)
