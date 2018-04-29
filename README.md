@@ -45,3 +45,7 @@ quick show:
 * [irregular-box-shadow](https://xianshenglu.github.io/css/irregular-box-shadow/index.html)
 
 ![irregular-box-shadow](https://xianshenglu.github.io/css/img-displayed/irregular-box-shadow.png)
+
+* [frosted-glass](https://xianshenglu.github.io/css/frosted-glass/index.html)
+
+![frosted-glass](https://xianshenglu.github.io/css/img-displayed/frosted-glass.png)
