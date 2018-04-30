@@ -49,3 +49,7 @@ quick show:
 * [frosted-glass](https://xianshenglu.github.io/css/frosted-glass/index.html)
 
 ![frosted-glass](https://xianshenglu.github.io/css/img-displayed/frosted-glass.png)
+
+* [folded-corner](https://xianshenglu.github.io/css/folded-corner/index.html)
+
+![folded-corner](https://xianshenglu.github.io/css/img-displayed/folded-corner.png)
