@@ -53,3 +53,15 @@ quick show:
 * [folded-corner](https://xianshenglu.github.io/css/folded-corner/index.html)
 
 ![folded-corner](https://xianshenglu.github.io/css/img-displayed/folded-corner.png)
+
+* [zebra-lines](https://xianshenglu.github.io/css/zebra-lines/index.html)
+
+![zebra-lines](https://xianshenglu.github.io/css/img-displayed/zebra-lines.png)
+
+* [wavy-underlines](https://xianshenglu.github.io/css/wavy-underlines/index.html)
+
+![wavy-underlines](https://xianshenglu.github.io/css/img-displayed/wavy-underlines.png)
+
+* [text-retro](https://xianshenglu.github.io/css/text-retro/index.html)
+
+![text-retro](https://xianshenglu.github.io/css/img-displayed/text-retro.png)
