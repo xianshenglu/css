@@ -24,6 +24,14 @@ quick show:
 
 ![circular-progress-bar](https://xianshenglu.github.io/css/img-displayed/circular-progress-bar.gif)
 
+* [hit-area-border](https://xianshenglu.github.io/css/hit-area-border/index.html)
+
+![hit-area-border](https://xianshenglu.github.io/css/img-displayed/hit-area-border.gif)
+
+* [scrolling-hints](https://xianshenglu.github.io/css/scrolling-hints/index.html)
+
+![scrolling-hints](https://xianshenglu.github.io/css/img-displayed/scrolling-hints.gif)
+
 ## non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/box-shadow-one-side/index.html)
@@ -37,6 +45,10 @@ quick show:
 * [checkboard](https://xianshenglu.github.io/css/checkboard/index.html)
 
 ![checkboard](https://xianshenglu.github.io/css/img-displayed/checkboard.png)
+
+* [knitwear](https://xianshenglu.github.io/css/knitwear/index.html)
+
+![knitwear](https://xianshenglu.github.io/css/img-displayed/knitwear.png)
 
 * [trapezoid-tabs](https://xianshenglu.github.io/css/trapezoid-tabs/index.html)
 
@@ -65,3 +77,11 @@ quick show:
 * [text-retro](https://xianshenglu.github.io/css/text-retro/index.html)
 
 ![text-retro](https://xianshenglu.github.io/css/img-displayed/text-retro.png)
+
+* [custom-checkbox](https://xianshenglu.github.io/css/custom-checkbox/index.html)
+
+![custom-checkbox](https://xianshenglu.github.io/css/img-displayed/custom-checkbox.png)
+
+* [circular-text](https://xianshenglu.github.io/css/circular-text/index.html)
+
+![circular-text](https://xianshenglu.github.io/css/img-displayed/circular-text.png)
