@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+    }
+
+    header {
+      overflow: hidden;
+      margin: 0 auto;
+      padding: 1rem;
+      width: 15rem;
+      height: 15rem;
+      background-color: #eeeeee;
+    }
+
+    .image-slider {
+      position: relative;
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .image-slider-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      max-width: 100%;
+      width: 50%;
+      resize: horizontal;
+    }
+
+    .image-slider-box::after {
+      position: absolute;
+      right: -0.4rem;
+      bottom: 0.1rem;
+      width: 0;
+      height: 0;
+      border: 0.5rem solid transparent;
+      border-left-color: rgba(255, 255, 255, 0.8);
+      content: '';
+      cursor: ew-resize;
+    }
+
+    .down,
+    .up {
+      display: block;
+      width: 10rem;
+      height: 10rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <section class="image-slider">
+      <div class="image-slider-box">
+        <img src="../img-displayed/source-image/tiger.png" alt="" class="down">
+      </div>
+      <img src="../img-displayed/source-image/vue-logo.png" alt="" class="up">
+    </section>
+  </header>
+</body>
+
+</html>

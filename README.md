@@ -32,6 +32,10 @@ quick show:
 
 ![scrolling-hints](https://xianshenglu.github.io/css/img-displayed/scrolling-hints.gif)
 
+* [image-slider](https://xianshenglu.github.io/css/image-slider/index.html)
+
+![image-slider](https://xianshenglu.github.io/css/img-displayed/image-slider.gif)
+
 ## non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/box-shadow-one-side/index.html)
@@ -85,3 +89,7 @@ quick show:
 * [circular-text](https://xianshenglu.github.io/css/circular-text/index.html)
 
 ![circular-text](https://xianshenglu.github.io/css/img-displayed/circular-text.png)
+
+* [styling-sibling-count](https://xianshenglu.github.io/css/styling-sibling-count/index.html)
+
+![styling-sibling-count](https://xianshenglu.github.io/css/img-displayed/styling-sibling-count.png)
