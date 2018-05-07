@@ -36,6 +36,10 @@ quick show:
 
 ![image-slider](https://xianshenglu.github.io/css/img-displayed/image-slider.gif)
 
+* [custom-checkbox](https://xianshenglu.github.io/css/custom-checkbox/index.html)
+
+![custom-checkbox](https://xianshenglu.github.io/css/img-displayed/custom-checkbox.gif)
+
 ## non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/box-shadow-one-side/index.html)
@@ -81,10 +85,6 @@ quick show:
 * [text-retro](https://xianshenglu.github.io/css/text-retro/index.html)
 
 ![text-retro](https://xianshenglu.github.io/css/img-displayed/text-retro.png)
-
-* [custom-checkbox](https://xianshenglu.github.io/css/custom-checkbox/index.html)
-
-![custom-checkbox](https://xianshenglu.github.io/css/img-displayed/custom-checkbox.png)
 
 * [circular-text](https://xianshenglu.github.io/css/circular-text/index.html)
 
