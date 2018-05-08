@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      /*height: 100%;*/
+    }
+
+    #wrapper {
+      height: 200px;
+      width: 200px;
+      background: pink;
+    }
+
+    #cell {
+      position: relative;
+      top: 50%;
+      background: yellowgreen;
+      transform: translateY(-50%);
+    }
+
+    #cell p {
+      background: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="cell">
+      <p>test</p>
+      <p>for</p>
+      <p>vertical-align:middle</p>
+    </div>
+  </div>
+</body>
+
+</html>

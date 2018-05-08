@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      background-color: yellowgreen;
+    }
+
+    .Frame {
+      display: table;
+      height: 100%;
+      width: 100%;
+    }
+
+    .Row {
+      display: table-row;
+      height: 1px;
+    }
+
+    .Row.Expand {
+      height: auto;
+    }
+
+    header {
+      background-color: yellowgreen;
+    }
+
+    main {
+      flex: 1;
+      background-color: lightblue;
+    }
+
+    footer {
+      background-color: pink;
+    }
+  </style>
+</head>
+
+<body class="Frame">
+  <header class="Row">
+    <h1>Catchy header</h1>
+  </header>
+  <main class="Row Expand">
+    <h2>Awesome content</h2>
+  </main>
+  <footer class="Row">
+    <h3>Sticky footer</h3>
+  </footer>
+</body>
+
+</html>
