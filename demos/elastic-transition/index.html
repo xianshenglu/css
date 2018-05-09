@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 1em;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+    }
+
+    label {
+      position: relative;
+      display: block;
+      width: 15em;
+    }
+
+    input {
+      display: block;
+      margin: 0.5em 0 0.5em;
+      padding: 0.25em 0 0.25em 0.5em;
+      width: 100%;
+      height: 1.5em;
+    }
+
+    input+.callout {
+      position: absolute;
+      box-sizing: border-box;
+      padding: 0.5em;
+      width: 100%;
+      border: 1px solid #968f8f;
+      border-radius: 0.25em;
+      background-color: #ffeedd;
+      box-shadow: 0 0 5px 2px #eeeeee, 5px 5px 5px 2px #eeeeee;
+      font-size: 0.8em;
+      transition: transform 0.5s cubic-bezier(0.24, 0.78, 0.69, 1.29);
+      transform-origin: left top;
+    }
+
+    input+.callout::before {
+      position: absolute;
+      top: 0;
+      left: 1em;
+      width: 1em;
+      height: 1em;
+      border: inherit;
+      border-right: none;
+      border-bottom: none;
+      background-color: inherit;
+      content: '';
+      transform: translateY(-50%) rotate(45deg);
+    }
+
+    input:not(:focus)+.callout {
+      transition-timing-function: linear;
+      transition-duration: 0.25s;
+      transform: scale(0);
+    }
+
+    input:focus+.callout {
+      transform: scale(1);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <label>
+      Your username:
+      <input id="username" autocomplete="off" />
+      <span class="callout">Only letters, numbers, underscores (_) and hyphens (-) allowed!</span>
+    </label>
+  </main>
+</body>
+
+</html>

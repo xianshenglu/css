@@ -40,6 +40,10 @@ quick show:
 
 ![custom-checkbox](https://xianshenglu.github.io/css/demos/img-displayed/custom-checkbox.gif)
 
+* [elastic-transition](https://xianshenglu.github.io/css/demos/elastic-transition/index.html)
+
+![elastic-transition](https://xianshenglu.github.io/css/demos/img-displayed/elastic-transition.gif)
+
 ## Non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/demos/box-shadow-one-side/index.html)
