@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+      font-family: Consolas, Monaco, monospace;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      display: flex;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 1em;
+      width: 100vw;
+      height: 100vh;
+      background-color: #eeeeee;
+      color: black;
+    }
+
+    @keyframes spin-css {
+      from {
+        transform: translate(50%, 150px) rotate(0turn) translate(-50%, -150px) translate(50%, 50%) rotate(1turn) translate(-50%, -50%);
+      }
+      to {
+        transform: translate(50%, 150px) rotate(1turn) translate(-50%, -150px) translate(50%, 50%) rotate(0turn) translate(-50%, -50%);
+      }
+    }
+
+    .path {
+      margin: auto;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 7.5rem;
+      background-color: pink;
+    }
+
+    .path-avatar {
+      display: block;
+      margin: 0 auto;
+      width: 50px;
+      height: 50px;
+      transform-origin: 0 0;
+      animation: spin-css 3s infinite linear;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="path">
+      <img src="../img-displayed/source-image/vue-logo.png" class="path-avatar" />
+    </div>
+  </main>
+</body>
+
+</html>

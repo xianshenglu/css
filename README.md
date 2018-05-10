@@ -44,6 +44,18 @@ quick show:
 
 ![elastic-transition](https://xianshenglu.github.io/css/demos/img-displayed/elastic-transition.gif)
 
+* [frame-by-frame](https://xianshenglu.github.io/css/demos/frame-by-frame/index.html)
+
+![frame-by-frame](https://xianshenglu.github.io/css/demos/img-displayed/frame-by-frame.gif)
+
+* [typing](https://xianshenglu.github.io/css/demos/typing/index.html)
+
+![typing](https://xianshenglu.github.io/css/demos/img-displayed/typing.gif)
+
+* [circular-move](https://xianshenglu.github.io/css/demos/circular-move/index.html)
+
+![circular-move](https://xianshenglu.github.io/css/demos/img-displayed/circular-move.gif)
+
 ## Non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/demos/box-shadow-one-side/index.html)

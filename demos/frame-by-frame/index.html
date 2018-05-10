@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      display: flex;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 1em;
+      width: 20vw;
+      height: 100vh;
+      background-color: #ffffff;
+    }
+
+    @keyframes loader {
+      to {
+        background-position: -800px 0;
+      }
+    }
+
+    .loading {
+      margin: auto;
+      width: 5rem;
+      height: 5rem;
+      background-image: url(../img-displayed/source-image/frame-by-frame.jpg);
+    }
+
+    .start {
+      animation: loader 8s infinite steps(8, start);
+    }
+
+    .end {
+      animation: loader 8s infinite steps(8, end);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="loading start" title="start"></div>
+    <div class="loading end" title="end"></div>
+  </main>
+</body>
+
+</html>

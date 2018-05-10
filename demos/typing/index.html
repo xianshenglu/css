@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+      font-family: Consolas, Monaco, monospace;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      display: flex;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 1em;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+      color: black;
+    }
+
+    @keyframes typeCha {
+      0% {
+        width: 0;
+      }
+    }
+
+    @keyframes tick {
+      50% {
+        border-color: inherit;
+      }
+    }
+
+    @keyframes compatible {
+      0% {
+        border-color: inherit;
+      }
+    }
+
+    h1 {
+      overflow: hidden;
+      margin: auto;
+      width: 15ch;
+      height: 1em;
+      border-right: 1px solid transparent;
+      white-space: nowrap;
+      font-size: 1em;
+      line-height: 1;
+      animation: 3s typeCha steps(15), 3s compatible steps(1),
+      1.1s 3s tick steps(1) infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>CSS is awesome!</h1>
+  </main>
+  <script>  
+    const $ = function (str) {
+      return document.querySelectorAll(str)
+    }
+    $('h1')[0].style.width = $('h1')[0].textContent.replace(/\s\s+/, ' ').length + 'ch'
+  </script>
+</body>
+
+</html>
