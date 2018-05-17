@@ -56,6 +56,10 @@ quick show:
 
 ![circular-move](https://xianshenglu.github.io/css/demos/img-displayed/circular-move.gif)
 
+* [img-lazy-load](https://xianshenglu.github.io/css/demos/img-lazy-load/index.html)
+
+![img-lazy-load](https://xianshenglu.github.io/css/demos/img-displayed/img-lazy-load.gif)
+
 ## Non-animation
 
 * [box-shadow-one-side](https://xianshenglu.github.io/css/demos/box-shadow-one-side/index.html)
