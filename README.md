@@ -116,10 +116,14 @@ quick show:
 
 ## Layout
 
-* [sticky-footer](https://github.com/xianshenglu/css/tree/master/demos/sticky-footer/index-flex.html)
+* [layout-sticky-footer](https://github.com/xianshenglu/css/tree/master/demos/layout-sticky-footer)
 
-![sticky-footer](https://xianshenglu.github.io/css/demos/img-displayed/sticky-footer.png)
+![layout-sticky-footer](https://xianshenglu.github.io/css/demos/img-displayed/layout-sticky-footer.png)
 
-* [vertical-align-middle](https://github.com/xianshenglu/css/tree/master/demos/vertical-align-middle/index-flex.html)
+* [layout-vertical-align-middle](https://github.com/xianshenglu/css/tree/master/demos/layout-vertical-align-middle)
 
-![vertical-align-middle](https://xianshenglu.github.io/css/demos/img-displayed/vertical-align-middle.png)
+![layout-vertical-align-middle](https://xianshenglu.github.io/css/demos/img-displayed/layout-vertical-align-middle.png)
+
+* [layout-three-columns](https://github.com/xianshenglu/css/tree/master/demos/layout-three-columns)
+
+![layout-three-columns](https://xianshenglu.github.io/css/demos/img-displayed/layout-three-columns.png)

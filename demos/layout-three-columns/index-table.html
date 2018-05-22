@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-size: 20px;
+      font-family: Microsoft Yahei;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      margin: auto;
+      margin-top: calc((100vh - 400px)/2);
+      width: 400px;
+      height: 400px;
+      line-height: 2;
+      background-color: yellowgreen;
+      display: table;
+    }
+
+    main>* {
+      height: 100%;
+      text-align: center;
+      display: table-cell;
+    }
+
+    .left {
+      background-color: lightblue;
+      width: 100px;
+    }
+
+    .mid {
+      background-color: pink;
+    }
+
+    .right {
+      background-color: lightblue;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="left">left section</section>
+    <section class="mid">mid section</section>
+    <section class="right">right section</section>
+  </main>
+</body>
+
+</html>
