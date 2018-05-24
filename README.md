@@ -120,6 +120,10 @@ quick show:
 
 ![layout-sticky-footer](https://xianshenglu.github.io/css/demos/img-displayed/layout-sticky-footer.png)
 
+* [layout-horizontal-center](https://github.com/xianshenglu/css/tree/master/demos/layout-horizontal-center)
+
+![layout-horizontal-center](https://xianshenglu.github.io/css/demos/img-displayed/layout-horizontal-center.png)
+
 * [layout-vertical-align-middle](https://github.com/xianshenglu/css/tree/master/demos/layout-vertical-align-middle)
 
 ![layout-vertical-align-middle](https://xianshenglu.github.io/css/demos/img-displayed/layout-vertical-align-middle.png)
