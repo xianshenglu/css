@@ -22,31 +22,30 @@
     }
 
     #wrapper {
-      height: 200px;
-      width: 200px;
       background: pink;
+      text-align: center;
+      position: relative;
+      height: 100px;
     }
 
     #cell {
-      position: relative;
-      top: 50%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 100px;
+      height: 100%;
       background: yellowgreen;
-      transform: translateY(-50%);
     }
 
-    #cell p {
-      background: lightblue;
-    }
   </style>
 </head>
 
 <body>
   <div id="wrapper">
-    <div id="cell">
-      <p>test</p>
-      <p>for</p>
-      <p>vertical-align:middle</p>
-    </div>
+    <span id="cell">
+      test for horizontal center
+    </span>
   </div>
 </body>
 

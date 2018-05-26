@@ -17,23 +17,15 @@
     }
 
     #wrapper {
-      position: relative;
+      display: table-cell;
       width: 200px;
       height: 200px;
       background: pink;
+      vertical-align: middle;
+      color: black;
     }
 
-    #cell {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100px;
-      margin: auto 0;
-      background: yellowgreen;
-    }
-
-    #cell p {
+    p {
       background: lightblue;
     }
 
@@ -42,11 +34,11 @@
 
 <body>
   <div id="wrapper">
-    <div id="cell">
-      <p>test</p>
-      <p>for</p>
-      <p>vertical-align:middle</p>
-    </div>
+
+    <p>test</p>
+    <p>for</p>
+    <p>vertical-align:middle</p>
+
   </div>
 </body>
 

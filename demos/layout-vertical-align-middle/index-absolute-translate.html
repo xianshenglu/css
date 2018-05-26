@@ -16,35 +16,30 @@
       padding: 0;
     }
 
+    html,
+    body {
+      /*height: 100%;*/
+    }
+
     #wrapper {
-      background: pink;
-      width: 200px;
       height: 200px;
-      font-size: 0;
-    }
-
-    #wrapper * {
-      font-size: 20px;
-    }
-
-    #wrapper:before {
-      height: 100%;
-      width: 0%;
-      display: inline-block;
-      content: '';
-      vertical-align: middle;
+      width: 200px;
+      background: pink;
+      position: relative;
     }
 
     #cell {
-      width: 100%;
-      display: inline-block;
-      vertical-align: middle;
+      position: absolute;
+      top: 50%;
       background: yellowgreen;
+      transform: translateY(-50%);
+      width: 100%;
     }
 
     #cell p {
       background: lightblue;
     }
+
   </style>
 </head>
 

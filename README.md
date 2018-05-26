@@ -131,3 +131,7 @@ quick show:
 * [layout-three-columns](https://github.com/xianshenglu/css/tree/master/demos/layout-three-columns)
 
 ![layout-three-columns](https://xianshenglu.github.io/css/demos/img-displayed/layout-three-columns.png)
+
+* [layout-equal-height](https://github.com/xianshenglu/css/tree/master/demos/layout-equal-height)
+
+![layout-equal-height](https://xianshenglu.github.io/css/demos/img-displayed/layout-equal-height.png)

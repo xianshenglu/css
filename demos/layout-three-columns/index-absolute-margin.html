@@ -24,26 +24,31 @@
       height: 400px;
       line-height: 2;
       background-color: yellowgreen;
-      display: table;
+      position: relative;
     }
 
     main>* {
       height: 100%;
       text-align: center;
-      display: table-cell;
     }
 
     .left {
       background-color: lightblue;
+      float: left;
       width: 100px;
     }
 
     .mid {
       background-color: pink;
+      position: absolute;
+      left: 100px;
+      right: 100px;
+      width: auto;
     }
 
     .right {
       background-color: lightblue;
+      float: right;
       width: 100px;
     }
 
@@ -52,9 +57,9 @@
 
 <body>
   <main>
-    <section class="left">left section </section>
-    <section class="mid">mid section</section>
+    <section class="left">left section</section>
     <section class="right">right section</section>
+    <section class="mid">mid section</section>
   </main>
 </body>
 
