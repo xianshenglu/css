@@ -24,6 +24,10 @@ quick show:
 
 ![circular-progress-bar](https://xianshenglu.github.io/css/demos/img-displayed/circular-progress-bar.gif)
 
+* [custom-percent](https://xianshenglu.github.io/css/demos/custom-percent/index.html)
+
+![custom-percent](https://xianshenglu.github.io/css/demos/img-displayed/custom-percent.gif)
+
 * [hit-area-border](https://xianshenglu.github.io/css/demos/hit-area-border/index.html)
 
 ![hit-area-border](https://xianshenglu.github.io/css/demos/img-displayed/hit-area-border.gif)

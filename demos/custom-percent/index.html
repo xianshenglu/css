@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    main {
+      max-width: 600px;
+      max-height: 600px;
+      margin: auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    button {
+      height: 40px;
+      width: 100px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    svg {
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+      transform: rotate(-90deg);
+      background: yellowgreen;
+      border-radius: 50%;
+    }
+
+    circle {
+      fill: yellowgreen;
+      stroke: #655;
+      stroke-width: 31.831;
+      stroke-dasharray: 0 100;
+      transition: stroke-dasharray 2s ease;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <svg viewBox="0 0 31.831 31.831">
+      <circle r="15.9155" cx="15.9155" cy="15.9155" data-percent="100" />
+    </svg>
+    <svg viewBox="0 0 31.831 31.831">
+      <circle r="15.9155" cx="15.9155" cy="15.9155" data-percent="90" />
+    </svg>
+    <svg viewBox="0 0 32 32">
+      <circle r="15.9155" cx="15.9155" cy="15.9155" data-percent="60" />
+    </svg>
+    <svg viewBox="0 0 32 32">
+      <circle r="15.9155" cx="15.9155" cy="15.9155" data-percent="30" />
+    </svg>
+    <svg viewBox="0 0 32 32">
+      <circle r="15.9155" cx="15.9155" cy="15.9155" data-percent="0" />
+    </svg>
+  </main>
+  <button onclick="showCookie()">showCookie?</button>
+  <script>    
+    function showCookie() {
+      let circleAction = Array.from(document.querySelectorAll('circle[data-percent]'))
+      circleAction.forEach(ele => {
+        let percent = ele.getAttribute('data-percent')
+        let r = ele.getAttribute('r')
+        ele.style.strokeDasharray = percent + ' 100'
+        console.log(percent, r);
+      })
+    }
+  </script>
+</body>
+
+</html>
