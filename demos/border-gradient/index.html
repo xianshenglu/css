@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+    }
+
+    .cont {
+      max-width: 400px;
+      max-height: 400px;
+      margin: 10px;
+      font-size: 40px;
+
+      border-width: 5px;
+      border-style: solid;
+    }
+
+    .cont:first-child {
+      border-image: linear-gradient(to right, red, blue);
+      border-image-slice: 1;
+    }
+
+    .cont:last-child {
+      border-color: transparent;
+      background-image: linear-gradient(to right, #fff, #fff), linear-gradient(to right, red, blue);
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cont">implemented with border-image</div>
+  <div class="cont">implemented with background-image</div>
+</body>
+
+</html>

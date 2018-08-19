@@ -1,0 +1,56 @@
+html,
+body,
+ul,
+li,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+main,
+section,
+article,
+aside,
+time,
+footer,
+input,
+button,
+label {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+input,
+button {
+  color: inherit;
+  border: none;
+  outline: none;
+  background: none;
+
+  font-size: inherit;
+}
+.hidden {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}

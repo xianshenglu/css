@@ -122,6 +122,14 @@ quick show:
 
 ![text-align-last-except-one-line](https://xianshenglu.github.io/css/demos/img-displayed/text-align-last-except-one-line.png)
 
+- [color-gradient](https://xianshenglu.github.io/css/demos/color-gradient/index.html)
+
+![color-gradient](https://xianshenglu.github.io/css/demos/img-displayed/color-gradient.png)
+
+- [border-gradient](https://xianshenglu.github.io/css/demos/border-gradient/index.html)
+
+![border-gradient](https://xianshenglu.github.io/css/demos/img-displayed/border-gradient.png)
+
 ## Layout
 
 - [layout-sticky-footer](https://github.com/xianshenglu/css/tree/master/demos/layout-sticky-footer)

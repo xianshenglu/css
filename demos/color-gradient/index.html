@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cont {
+      max-width: 400px;
+      max-height: 400px;
+    }
+
+    .cont {
+      font-size: 40px;
+      background: linear-gradient(#0F3, #F00);
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+
+    /*for ie10+*/
+
+    _:-ms-lang(x),
+    .cont {
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cont">this is a test!</div>
+</body>
+
+</html>
