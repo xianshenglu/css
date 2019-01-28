@@ -1,0 +1,77 @@
+html,
+body,
+ul,
+li,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+header,
+main,
+section,
+article,
+aside,
+time,
+footer,
+input,
+button,
+label {
+  margin: 0;
+  padding: 0;
+  /* user-select for mobile */
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+}
+html {
+  /* controls the text inflation algorithm used on some smartphones and tablets */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  /* When a target is touched and held on iOS, Safari displays a callout information about the link. This property allows disabling that behavior. */
+  -webkit-touch-callout: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; /* for some android */
+  color: inherit;
+}
+input,
+button {
+  color: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  /*  doesn't work in IE*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+}
+
+img:not([src]) {
+  opacity: 0;
+}
