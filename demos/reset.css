@@ -1,29 +1,73 @@
 html,
 body,
-ul,
-li,
+/* html5 */
+header,
+nav,
+main,
+section,
+article,
+aside,
+time,
+address,
+footer,
+/* common element */
 div,
-dl,
-dt,
-dd,
+span,
+p,
+a,
+img,
+/* less common element */
+sub,
+sup,
+cite,
+pre,
+code,
+iframe,
+strong,
+/* series element*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-a,
-header,
-main,
-section,
-article,
-aside,
-time,
-footer,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+legend,
+label,
 input,
 button,
-label {
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td
+/* legacy element */
+big,
+small,
+applet,
+object,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+strike,
+abbr,
+acronym,
+tt {
   margin: 0;
   padding: 0;
   /* user-select for mobile */
@@ -40,6 +84,9 @@ html {
   text-size-adjust: none;
   /* When a target is touched and held on iOS, Safari displays a callout information about the link. This property allows disabling that behavior. */
   -webkit-touch-callout: none;
+  /* Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter. Only for ma */
+  /* -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; */
 }
 ul,
 li {
@@ -71,7 +118,9 @@ button {
   appearance: none;
   font-size: inherit;
 }
-
+:focus {
+  outline: 0;
+}
 img:not([src]) {
   opacity: 0;
 }
